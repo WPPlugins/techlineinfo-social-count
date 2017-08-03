@@ -1,0 +1,75 @@
+/* CSS Document */
+
+/*-- Mashable Style Social Share  --------------------
+------------------------------------------*/
+#msssh-admin-wrap{
+	width:550px;
+}
+#msssh-admin-wrap table{
+	width:100%;
+}
+#msssh-admin-wrap table td {
+	padding:5px;
+}
+#msssh-admin-wrap table td:first-child{
+	width:200px;
+}
+#msssh-admin-wrap  #poststuff{
+	min-width:100%;
+}
+#msssh-admin-wrap  select {
+	padding: 3px;
+    width: 90px;
+}
+#msssh-admin-wrap #template_code{
+	background-color: #6699CC;
+    padding: 10px;
+}
+#msssh-admin-wrap .share_button{
+	width:134px !important;
+}
+#msssh_template_code{
+    background: none repeat scroll 0 0 #FFFADA;
+    border: 1px solid #F9F1C0;
+    color: #000000;
+    font-size: 15px;
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+}
+#msssh_template_code .msssh_or {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#msssh_template_code h4{
+    background: none repeat scroll 0 0 #EFFDFD;
+    border: 1px solid #B1CFFC;
+    border-radius: 2px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 7px;
+}
+/* This gets Google to fall into place */
+.social {
+	font-size: 12px;
+	background-color: #99CCFF;
+}
+ 
+/* This gets Facebook to fall into place */
+.social iframe {
+vertical-align: middle;
+}
+ 
+/* Set an optional width for your button wrappers */
+.social span {
+display: inline-block;
+}
+ 
+/* Adjust the widths individually if you like */
+.social .google {
+width: 75px;
+} 
+/* Adjust the widths individually if you like */

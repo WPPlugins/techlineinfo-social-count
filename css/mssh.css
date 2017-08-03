@@ -1,0 +1,268 @@
+.msssh-container
+{
+width:450px;
+height:50px;
+}
+.sharetext {
+font-size:11px;
+font-family:Arial,sans-serif;
+color:#8A8C8E;
+}
+.count {
+display: block;
+padding-bottom: 0px;
+font-size: 30px;
+font-weight: bold;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+color: #7FC04C;
+border: #FFF solid 0px;
+text-align: center;
+margin-right: 10px;
+margin-top: 10px;
+float: left;
+line-height: 13px;
+}
+
+.switch:before{
+ content: "\f067";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+   position: relative; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    display: inline-block;
+    float: right;
+    margin-right: 3px;
+    margin-bottom:3px;
+    margin-left: 0px;
+    cursor: pointer;
+    background-color: #C5C5C5; 
+	color: #FFFFFF;
+    width: 42px;
+    height: 44px; 
+    line-height: 42px;
+    text-align: center;
+	border-radius: 2px;
+	}
+a{
+    text-decoration: none;
+}	
+.switch.expanded:before{
+content:  "\f068";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+   position: relative; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    display: inline-block;
+    float: right;
+    margin-right: 3px;
+    margin-bottom:3px;
+    margin-left: 4px;
+    cursor: pointer;
+    background-color: #C5C5C5; 
+	color: #FFFFFF;
+    width: 42px;
+    height: 44px; 
+    line-height: 42px;
+    text-align: center;
+	border-radius: 2px; 
+  }
+.fa-facebook-square {
+content:  "\f082";
+    background-color:#3b5998; 
+    width: 162px; 
+}
+
+.fa-facebook-square,.fa-twitter,.fa-linkedin-square,.fa-pinterest,.fa-google-plus,.fa-stumbleupon {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+   position: relative; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom:3px;
+    margin-left: 4px;
+    cursor: pointer;
+	color: #FFFFFF;
+    height: 44px; 
+    line-height: 42px;
+    text-align: center;
+	border-radius: 2px; 
+}
+.expanded-text{
+background:#3b5998; 
+font-size:12px;
+display: inline;
+color:white ;
+height: 30px;
+text-align: center;
+padding-left:5px;
+}
+.fa-twitter {
+ content:  "\f099";
+    background-color:#00aced ;  
+  width: 162px;
+    }
+.expanded-text-twitter{
+background:#00aced ;
+display: inline;
+font-size:12px;
+color:white ;
+height: 30px;
+text-align: center;
+padding-left:5px;
+}
+.alt-text-tweet{
+display: none;
+}
+.alt-text-facebook{
+display: none;
+}
+.fa-linkedin-square{
+ content: "\f08c";
+    background-color:#257BBA ;  
+    width: 78px;
+    }
+.fa-pinterest {
+ content:  "\f0d2";
+      background-color:#DE0B30 ;  
+    width: 78px;
+   }
+.fa-google-plus {
+ content:  "\f0d5";
+    background-color:#F55B3A;
+	 width: 78px;
+    }
+.fa-stumbleupon {
+ content:  "\f1a4";
+    background-color:#F55B3A;
+	 width: 78px;
+    }
+#msssh-container
+{
+width:460px;
+height:auto;
+}
+#msssh-content {
+	margin-top:3px;
+	margin-bottom:5px;
+		float:right;
+	margin-left: 40px;
+    width: 390px;
+}
+	
+
+#msssh-middle {
+	width: 450px;
+		}
+
+#msssh-left {
+	width:60px;
+	float: left;
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#msssh-content {
+		width: 65%;
+		margin-right:100px;
+		
+			}
+	
+	#msssh-middle  {
+		width: 65%;
+				}
+	
+	#msssh-left {
+		width: auto;
+		}
+.alt-text-tweet{
+background:#00aced ;
+font-size:12px;
+display: inline;
+color:white ;
+height: 30px;
+text-align: center;
+padding-left:5px;
+}
+.fa-twitter,.fa-facebook-square{
+width: 85px;
+}
+.alt-text-facebook{
+background:#3b5998; 
+display: inline;
+color:white ;
+height: 30px;
+font-size:12px;
+text-align: center;
+padding-left:5px;
+}
+ 
+.expanded-text{
+display: none;
+}
+.expanded-text-twitter{
+display: none;
+}
+.fa-pinterest,.fa-google-plus,.fa-stumbleupon,.fa-linkedin-square {
+width: 40px;
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+#msssh-content {
+		width: 300px;
+		float:left;
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-left:10px;
+		height:40px;
+		}
+	
+	#msssh-middle {
+		width: 140px;
+		float:left;
+		margin-right:2px;
+		margin-left:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+			}
+.msssh-container
+{
+width:300px;
+}
+.fa {
+text-decoration: none ;
+padding-top: 10px;
+border-radius: 2px;
+}		
+.fa-twitter,.fa-facebook-square {
+width:40px;
+}
+.alt-text-tweet{
+display: none;
+}
+.expanded-text-twitter{
+display: none;
+}
+.alt-text-facebook{
+display: none;
+}
+
+.expanded-text{
+display: none;
+}
+.split
+{
+display:none;
+}
+.switch:before{
+       	   width: 38px;
+    }
+.switch.expanded:before{
+    	width: 38px;
+      }
+
